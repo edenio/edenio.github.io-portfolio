@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  background: #333;
+  padding: 1rem 0;
+}
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 2rem;
+}
+footer {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 2rem;
+}
+
