@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 8%;
+  background-color: #e5e5e5; /* cor de fundo suave */
+  flex-wrap: wrap; /* para ficar responsivo */
+}
+
+.header-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.header-text h2 {
+  font-size: 1.5rem;
+  color: #007acc; /* azul destaque */
+  margin-bottom: 1.5rem;
+}
+
+.header-text p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.header-text a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #007acc;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0 #333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.header-text a:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 #333;
+}
+
+.header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #007acc; /* círculo azul atrás da foto */
+  padding: 8px;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  background: #333;
+  padding: 1rem 0 1rem 2rem; /* 2rem só na esquerda */
+  margin: 0;
+}
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 2rem;
+}
+footer {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 2rem;
+}
