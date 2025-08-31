@@ -10,11 +10,11 @@ export default function Header() {
       Atualmente presto assistência para os softwares que desenvolvi, mas estou em busca de novos desafios 
       através dos estudos em novas tecnologias.
     </p>
-    <a href="/Curriculo_Edenio_2025.pdf" download>Baixe meu Currículo</a>
+    <a href="/edenio.github.io-portfolio/Curriculo_Edenio_2025.pdf" download>Baixe meu Currículo</a>
   </div>
 
   <div className="header-image">
-    <img src="/profile.png" alt="Foto de perfil" />
+    <img src="/edenio.github.io-portfolio/profile.png" alt="Foto de perfil" />
   </div>
 </header>
 
