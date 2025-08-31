@@ -1,12 +1,31 @@
-export default function Navbar() {
+import React from "react";
+
+const Navbar = ({ darkMode, toggleDarkMode }) => {
   return (
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#experiencia">Experiência Profissional</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+    <nav className="navbar">
+      <div className="nav-container">
+        <ul className="nav-menu">
+          <li className="nav-item">
+            <a href="#sobre" className="nav-link">Sobre</a>
+          </li>
+          <li className="nav-item">
+            <a href="#experiencia" className="nav-link">Experiência</a>
+          </li>
+          <li className="nav-item">
+            <a href="#projetos" className="nav-link">Projetos</a>
+          </li>
+          <li className="nav-item">
+            <a href="#formacao" className="nav-link">Formação</a>
+          </li>
+          <li className="nav-item">
+            <button onClick={toggleDarkMode} className="theme-toggle">
+              {darkMode ? '☀️' : '🌙'}
+            </button>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
-}
+};
+
+export default Navbar;
